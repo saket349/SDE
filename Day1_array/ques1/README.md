@@ -1,4 +1,4 @@
-Find the duplicate in an array of N+1 integers.<br>
+<h1>Find the duplicate in an array of N+1 integers.</h1>
 First method is Sorting time complexity O(nlogn) <br>
 Second Method is using map, time complexity O(n)<br>
 Optimise method is <u>Floyd Tortoise And Hare</u><br>
