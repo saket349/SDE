@@ -1,2 +1,4 @@
-<h1> Solution SDE sheet </h1>
-<p> SDE sheet link : <a href="https://docs.google.com/document/d/1SM92efk8oDl8nyVw8NHPnbGexTS9W-1gmTEYfEurLWQ/edit" target="_blank">Go</a></p>
+<h1> Sort an array of 0’s 1’s 2’s without using extra space or sorting algo</h1>
+First method is using library sort<br>
+Optimise method is <u>Dutch National Flag Algo</u><br>
+<p> Problem statement link : <a href="https://leetcode.com/problems/sort-colors/" target="_blank">Go</a></p>
