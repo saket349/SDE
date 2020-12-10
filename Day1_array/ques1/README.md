@@ -2,4 +2,4 @@
 First method is Sorting, time complexity O(nlogn) <br>
 Second Method is using map, time complexity O(n) space complexity O(n)<br>
 Optimise method is <u>Floyd Tortoise And Hare, Time complexity O(n) space complexity O(1)</u><br>
-<a href = "https://www.youtube.com/watch?v=32Ll35mhWg0&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=1"> Problem statement link</a>
+Problem statement link: <a href = "https://leetcode.com/problems/find-the-duplicate-number/solution/">Go</a>
