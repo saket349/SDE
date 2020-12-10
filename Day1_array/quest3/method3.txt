@@ -1,0 +1,6 @@
+>Let x be the missing and y be the repeating element.
+>Get the sum of all numbers using formula S = n(n+1)/2 – x + y
+>Get product of all numbers using formula P = 1*2*3*…*n * y / x
+>The above two steps give us two equations, we can solve the equations and get the values of x and y.
+
+This method may cause arithmatic overflow as we calculate product(P)
