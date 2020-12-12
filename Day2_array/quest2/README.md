@@ -4,7 +4,8 @@
 <p>Question can be asked like print first five rows of pascal triangle or print seventh row only or print fifth row third element </p>
 <br>
 for finding the value at nth row nd mth  column formula is 
-- <sup>n-1</sup>C<sub>m-1</sub>
+- 
+<sup>n-1</sup>C<sub>m-1</sub>
 <u>
   <li>
     <br>{time complexity = O(NlogN) + O(N^2); Space complexity = O(N)}</li>
