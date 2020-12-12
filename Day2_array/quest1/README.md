@@ -1,2 +1,5 @@
-<h1> Solution SDE sheet </h1>
-<p> SDE sheet link : <a href="https://docs.google.com/document/d/1SM92efk8oDl8nyVw8NHPnbGexTS9W-1gmTEYfEurLWQ/edit" target="_blank">Go</a></p>
+<h1> Set Matrix Zeros </h1>
+<u>
+  <li>first approach is </li>
+</u>
+<p>Problem statemnt link : <a href="https://leetcode.com/problems/set-matrix-zeroes/" target="_blank">Go</a></p>
