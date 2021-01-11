@@ -26,7 +26,7 @@ void solve(Node* root, int level,int *max_level,vector<int> &v){
         solve(root->left,level+1,max_level,v);
     }
 }
-vector<int> leftView(Node *root)
+vector<int> rightView(Node *root)
 {
    // Your code here
    Node* p = root;
