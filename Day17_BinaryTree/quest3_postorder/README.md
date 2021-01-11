@@ -1,4 +1,4 @@
-## iterative 
+## Iterative 
 
 1. Right child of 1 exists. 
    Push 3 to stack. Push 1 to stack. Move to left child.
