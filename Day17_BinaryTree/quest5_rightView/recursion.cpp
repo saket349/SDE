@@ -19,7 +19,7 @@ void solve(Node* root, int level,int *max_level,vector<int> &v){
         if(*max_level < level)
         {
             v.push_back(root->data);
-            *max_level=level;
+            *max_level = level;
         }
         
         solve(root->right,level+1,max_level,v);
