@@ -1,18 +1,17 @@
-/* Tree node class
-
+//Structure of binary tree
+/*struct Node
 struct Node
 {
-    int data; //data of the node
-    Node *left, *right; //left and right references
-
-    // Constructor of tree node
-    Node(int key)
-    {
-        data = key;
+    int data;
+    struct Node* left;
+    struct Node* right;
+    
+    Node(int x){
+        data = x;
         left = right = NULL;
     }
-}; */
-int r=0,l=0;
+};*/
+// function should print the topView of the binary tree
 void printBottomViewUtil(Node * root, int curr, int hd, map <int, pair <int, int>> & m) 
 { 
     // Base case 
@@ -26,18 +25,16 @@ void printBottomViewUtil(Node * root, int curr, int hd, map <int, pair <int, int
     { 
         m[hd] = make_pair(root -> data, curr); 
     }  
-    // Compare height for already  
-    // present node at similar horizontal 
-    // distance 
-    else 
+     else 
     { 
         pair < int, int > p = m[hd]; 
-        if (p.second <= curr) 
+        if (p.second > curr) 
         { 
             m[hd].second = curr; 
             m[hd].first = root -> data; 
         } 
-    } 
+    }
+    
       
     // Recur for left subtree 
     printBottomViewUtil(root -> left, curr + 1, hd - 1, m); 
@@ -47,10 +44,9 @@ void printBottomViewUtil(Node * root, int curr, int hd, map <int, pair <int, int
 } 
 
 
-vector <int> bottomView(Node *root)
+void topView(Node *root)
 {
    // Your Code Here
-   vector<int> v;
    // Map to store Horizontal Distance, 
     // Height and Data. 
     map < int, pair < int, int > > m; 
@@ -62,7 +58,6 @@ vector <int> bottomView(Node *root)
     for (it = m.begin(); it != m.end(); ++it) 
     { 
         pair < int, int > p = it -> second; 
-        v.push_back(p.first); 
+       cout<<p.first<<" "; 
     } 
-   return v;
 }
