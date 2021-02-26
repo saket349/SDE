@@ -1,3 +1,7 @@
+/*
+Copy next node to this node, nd delete that copied node, or leave.
+*/
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
