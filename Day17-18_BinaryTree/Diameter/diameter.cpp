@@ -1,5 +1,9 @@
 // Diamter of a tree
 // longest path you can travel or max(distabce bw two nodes)
+/*
+ recursive code, for every node we find max of heght(left, right) and for that node longest path is left heght + right height + 1 
+ then we find max of all path lenght, for this we we keep updating max lenght if encounter lenght more then currently stored max lenght 
+*/
 
 /**
  * Definition for a binary tree node.
