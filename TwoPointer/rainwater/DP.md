@@ -1,5 +1,5 @@
 ##### we have two extra space here , one which store right height size upto that index and other left height size upto that index
-<img src = "https://leetcode.com/problems/trapping-rain-water/Figures/42/trapping_rain_water.png"><br>
+![trapping_rain_water](https://user-images.githubusercontent.com/62437314/115459463-b6021e00-a244-11eb-84a4-5d0288f556e4.png)
 ##### ans is sum of min(r[i],l[i])
 
 ```
@@ -38,3 +38,4 @@ public:
     }
 };
 ```
+![trapping_rain_water](https://user-images.githubusercontent.com/62437314/115459382-9d920380-a244-11eb-927a-09f5eb1891a0.png)
