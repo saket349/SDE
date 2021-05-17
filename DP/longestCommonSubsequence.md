@@ -1,4 +1,4 @@
-## LCA 
+## LCS
 
 ```
 class Solution {
