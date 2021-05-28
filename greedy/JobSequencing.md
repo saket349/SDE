@@ -20,10 +20,10 @@ struct Job
             return ans;
         }
         
-        sort(arr,arr+n, comp);
+        sort(arr,arr+n, comp); // sorting
         
         bool d[101];
-        memset(d,false,sizeof(d));
+        memset(d,false,sizeof(d));   // bool of all time, availablity check
         
         int c = 0, sum = 0;
         for(int i=0;i<n;i++){
@@ -41,3 +41,5 @@ struct Job
         return ans;
     } 
 ```
+
+#### time complexity O(n^2) , extra space O(n)
