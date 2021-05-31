@@ -30,9 +30,8 @@ public:
         while(l<h){
             int mid = (l+h)/2;
             cnt = 0;
-            for(int i=0;i<r;i++) {
+            for(int i=0;i<r;i++)
                 cnt = cnt + upper_count(matrix[i], mid);
-            }
             
             if(cnt<k) l = mid + 1;
             else h = mid;
