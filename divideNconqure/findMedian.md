@@ -32,7 +32,6 @@ public:
             cnt = 0;
             for(int i=0;i<r;i++) {
                 cnt = cnt + upper_count(matrix[i], mid);
-                // cout<<mid<<" "<<cnt<<endl;
             }
             
             if(cnt<k) l = mid + 1;
