@@ -3,8 +3,8 @@
 - we know for given sorted array median is value at middle index
 - using binary search we calculate mid, for current limits, and 
 - see how many numbers are there in each row which are smaller or equal to current mid, and take sum of all, we do this again by using binary search method
-- if cnt > k(desired cnt) then we decrease h;
-- else if cnt < k, we increase l;
+- if cnt > k(desired cnt) then we decrease h
+- else if cnt < k, we increase l
 - and if cnt == k, then too we increase l, cause is how many number are lesser or equal to mid, so it is including mid, but be want ans such that on left it there should be k numbers
 
 ```
