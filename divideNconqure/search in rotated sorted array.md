@@ -1,4 +1,4 @@
-## for array with distinct values
+## For array with distinct values
 
 #### to find pivot
 ```
