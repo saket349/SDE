@@ -23,3 +23,31 @@ int findval(vector<int> v,int l,int r,int x){
 }
 ```
 
+## For array with duplicates
+
+##### for extra condition we just reduce the size of consideration from both side
+
+```
+int searchx(vector<int> &v, int l,int r,int x){
+    if(l>r) return -1;
+    
+    int mid = (l+r)/2;
+    if(v[mid]==x) return mid;
+    
+    
+    if(v[l]==v[mid] && v[mid]==v[r]) return searchx(v,l+1,r-1,x);  // this one extra condition applied, 
+    
+    // if array is sorted from l...mid     
+    if(v[l]<=v[mid]) {
+        if(x>=v[l] && x<=v[mid]) return searchx(v,l,mid-1,x);
+        
+        return searchx(v,mid+1,r,x);
+    }
+    
+    if(x>=v[mid] && x<=v[r])
+        return searchx(v,mid+1,r,x);
+    
+    return searchx(v,l,mid-1,x);
+}
+```
+
