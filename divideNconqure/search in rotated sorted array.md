@@ -50,4 +50,12 @@ int searchx(vector<int> &v, int l,int r,int x){
     return searchx(v,l,mid-1,x);
 }
 ```
+ bool search(vector<int>& nums, int target) {
+        int x = searchx(nums,0,nums.size()-1,target);
+        if(x>=0 && nums[x]==target) return true;
+        return false;
+    }
+```
+
+```
 
