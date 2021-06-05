@@ -85,7 +85,7 @@ int main()
 
 ```
 
-### using LL
+### Using LL
 ```
 // C++ program for linked list implementation of stack
 #include <bits/stdc++.h>
