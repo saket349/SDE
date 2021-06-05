@@ -6,12 +6,13 @@
 
 ### so what we do we do tree traversal and see if min, max if such that root->data is more then min and less then max strictly
 ### so while traversing we keep track of the narrowing min and max allowed values as it goes, looking at each node only once. The initial values for min and max should be INT_MIN and INT_MAX — they narrow from there. 
+### PS: change INT_MIN AND INT_MAX to value according to question, for question with large entries we may change it some valid min and max value
 ```
 int solve(Node* root, int min,int max){
         if(root==NULL) return 1;
-        if(root->data < min || root->data > max) return 0;
+        if(root->data <= min || root->data >= max) return 0;
         
-        return solve(root->left, min,root->data-1) && solve(root->right,root->data+1,max);
+        return solve(root->left, min,root->data) && solve(root->right,root->data,max);
     }
     bool isBST(Node* root) 
     {
