@@ -1,4 +1,4 @@
-### using array
+### Using array
 ```
 /* C++ program to implement basic stack
 operations */
