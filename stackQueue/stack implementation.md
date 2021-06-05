@@ -1,4 +1,4 @@
-### Using array
+### Using Array
 ```
 /* C++ program to implement basic stack
 operations */
@@ -85,7 +85,7 @@ int main()
 
 ```
 
-### Using LL
+### Using LinkedList
 ```
 // C++ program for linked list implementation of stack
 #include <bits/stdc++.h>
