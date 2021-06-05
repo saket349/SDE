@@ -1,3 +1,5 @@
+#### almost simmilar to findding median of two sorted array just me find kth element here and not (n+m+1)/2 th element
+#### two more conditions comes to picture since we have our new limits
 ```
 public:
     int kthElement(int arr1[], int arr2[], int n, int m, int k)
@@ -6,12 +8,12 @@ public:
         int low = 0;int high = n;
         while(low<=high) {
             int mid1 = (low + high)/2;
-            if(mid1 > k) {
+            if(mid1 > k) { // additional condintion
                 high = mid1 - 1;
                 continue;
             }
             int mid2 = k - mid1;
-            if(mid2 >= m){
+            if(mid2 >= m){ // additional condition
                 low = mid1 + 1;
                 continue;
             }
