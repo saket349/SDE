@@ -7,6 +7,10 @@ class Solution{
     {
         sort(arr,arr+n);
         sort(dep,dep+n);
+        // we sort start and end time 
+        // we see which event occurs first and accordingly we keep the count changing
+        // count increase when we encounter arraival nd decreases when dept
+        // count tells us how many trains are there at any time instant
         
         int m = 1, t = 1;
         int i = 1,j = 0;
