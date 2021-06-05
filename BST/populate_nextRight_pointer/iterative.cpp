@@ -16,8 +16,8 @@ public:
 };
 */
 
-# we do simple things here, use queue and do level wise traversal, while traversing a row, we already had it stored in queue
-# we start with first element, then move along the row, while doing this we stores their both child in queue.
+// we do simple things here, use queue and do level wise traversal, while traversing a row, we already had it stored in queue
+// we start with first element, then move along the row, while doing this we stores their both child in queue.
 
 class Solution {
 public:
