@@ -36,7 +36,7 @@ public:
                 q.pop();
                 n--;
                 
-                while(n>=1){
+                while(n>0){
                     Node* t = q.front();
                     p->next = t;
                     p=t;
