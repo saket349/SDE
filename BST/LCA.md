@@ -10,21 +10,15 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-TreeNode* solve(TreeNode* node, TreeNode* p, TreeNode* q){
-    if(node!=NULL){
-        if(p->val > q->val) return solve(node,q,p);
-        if(node==p || node==q) return node;
-        if(p->val < node->val && q->val > node->val) return node;
-        if(p->val > node->val) return solve(node->right,p,q);
-        return solve(node->left,p,q);
-    }
-    return NULL;
+Node* LCA(Node *root, int n1, int n2)
+{
+    if(root==NULL) return NULL;
+    if (root->val > n1 && root->val > n2) 
+        return LCA(root->left, n1, n2);
+    if (root->val < n1 && root->val < n2) 
+        return LCA(root->right, n1, n2); 
+  
+    return root; 
+   //Your code here
 }
-
-class Solution {
-public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        return solve(root,p,q);
-    }
-};
 ```
