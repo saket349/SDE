@@ -1,4 +1,5 @@
 ### to find inorder predessor and successor
+### Algorithm ---
 ```
 Input: root node, key
 output: predecessor node, successor node
@@ -20,6 +21,7 @@ output: predecessor node, successor node
         set the predecessor as root
         search recursively into right subtree
 ```
+### Code ---
 ```
 void findPreSuc(Node* root, Node*& pre, Node*& suc, int key)
 {
