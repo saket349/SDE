@@ -4,8 +4,7 @@
 - Both the left and right subtrees must also be binary search trees
 - Each node (item in the tree) has a distinct key.
 
-### so waht we do is keep acount of min and max value, initialy as INT_MIN and INT_MAX, and then keep updating it as move down the tree
-### so while traversing we keep track of the narrowing min and max allowed values as it goes, looking at each node only once. The initial values for min and max should be INT_MIN and INT_MAX — they narrow from there. 
+### so waht we do is keep acount of min and max value, initialy as INT_MIN and INT_MAX, and then keep updating it as move down the tree, for each level we narrow down min and max difference accordingly. 
 ### PS: change INT_MIN AND INT_MAX to value according to question, for question with large entries we may change it some valid min and max value
 ```
 int solve(Node* root, int min,int max){
