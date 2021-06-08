@@ -1,5 +1,5 @@
 ### We need to search if there exist a pair in BST such that their sum = Target
-##### we can store the values of BST in sorted array by inorder traversal and then solve using two pointer technique. TC: O(n), SC: O(n), <br> or we can use stack for that, we sue two stack ds, one for normal inorder and other for reverse inorder TC: O(n), SC: O(log(n))
+##### we can store the values of BST in sorted array by inorder traversal and then solve using two pointer technique. TC: O(n), SC: O(n), <br> or we can use stack for that, we sue two stack ds, one for normal inorder and other for reverse inorder TC: O(n), worst SC: O(h) where h is height of the tree
 
 ```
 Node is as follows
