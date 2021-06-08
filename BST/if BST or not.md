@@ -5,7 +5,7 @@
 - Each node (item in the tree) has a distinct key.
 
 ### so waht we do is keep acount of min and max value, initialy as INT_MIN and INT_MAX, and then keep updating it as move down the tree, for each level we narrow down min and max difference accordingly. 
-### PS: change INT_MIN AND INT_MAX to value according to question, for question with large entries we may change it some valid min and max value
+##### PS: change INT_MIN AND INT_MAX to value according to question, for question with large entries we may change it some valid min and max value
 ```
 int solve(Node* root, int min,int max){
         if(root==NULL) return 1;
