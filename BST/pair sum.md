@@ -1,6 +1,5 @@
 ### We need to search if there exist a pair in BST such that their sum = Target
-##### we can store the values of BST in sorted array by inorder traversal and then solve using two pointer technique. TC: O(n), SC: O(n)
-##### or we can use stack for that, we sue two stack ds, one for normal inorder and other for reverse inorder
+##### we can store the values of BST in sorted array by inorder traversal and then solve using two pointer technique. TC: O(n), SC: O(n), or we can use stack for that, we sue two stack ds, one for normal inorder and other for reverse inorder
 
 ```
 Node is as follows
