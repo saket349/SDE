@@ -7,7 +7,7 @@
 - else if cnt < k, we increase l
 - and if cnt == k, then too we increase l, cause is how many number are lesser or equal to mid, so it is including mid, but be want ans such that on left it there should be k numbers
 
-```
+```cpp
 int upper_count(vector<int> &v, int x){
     int l=0,r=v.size()-1;
     while(l<=r){
