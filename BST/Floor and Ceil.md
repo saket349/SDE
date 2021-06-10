@@ -14,7 +14,7 @@
   the key.
 ```
 ### code snippet from geeks
-```
+```cpp
 int floor(Node* root, int key)
 {
     if (!root)
