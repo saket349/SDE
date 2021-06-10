@@ -1,6 +1,6 @@
 ### Almost same to LCA for Binary Tree, just more easier as we know where two values can be found, as BST is sorted tree
 
-```
+```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
