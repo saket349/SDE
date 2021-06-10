@@ -1,6 +1,6 @@
 #### almost simmilar to findding median of two sorted array just me find kth element here and not (n+m+1)/2 th element
 #### two more conditions comes to picture since we have our new limits
-```
+```cpp
 public:
     int kthElement(int arr1[], int arr2[], int n, int m, int k)
     {
