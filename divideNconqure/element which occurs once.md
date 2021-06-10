@@ -4,7 +4,7 @@
 - If ‘mid’ is even, then compare arr[mid] and arr[mid + 1]. If both are the same, then the required element after ‘mid’ and else before mid
 - If ‘mid’ is odd, then compare arr[mid] and arr[mid – 1]. If both are the same, then the required element after ‘mid’ and else before mid
 
-```
+```cpp
 int findOnce(int arr[], int n)
     {
         //code here.
