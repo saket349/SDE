@@ -1,7 +1,7 @@
 ## For array with distinct values
 
 #### to find pivot
-```
+```cpp
 int find(vector<int> v,int l,int r){
         if(l>r) return -1;
         if(l==r) return l;
@@ -13,7 +13,7 @@ int find(vector<int> v,int l,int r){
 ##### so when we have pivot we know that we have two sorted array, First and Second, so we can then use binary search in both of them to see if our value lie in any of them or not, or just compare target value with arr[0] so if target > arr[0] then target will lie in First array, else in Second one
 ##### Binary search
 
-```
+```cpp
 int findval(vector<int> v,int l,int r,int x){
     if(l>r) return -1;
     int mid = (r-l)/2 + l;
@@ -27,7 +27,7 @@ int findval(vector<int> v,int l,int r,int x){
 
 ##### for extra condition we just reduce the size of consideration from both side
 
-```
+```cpp
 int searchx(vector<int> &v, int l,int r,int x){
     if(l>r) return -1;
     
@@ -51,7 +51,7 @@ int searchx(vector<int> &v, int l,int r,int x){
 }
 ```
  
-```
+```cpp
 bool search(vector<int>& nums, int target) {
         int x = searchx(nums,0,nums.size()-1,target);
         if(x>=0 && nums[x]==target) return true;
