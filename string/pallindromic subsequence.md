@@ -24,9 +24,10 @@
           return 0;
       }
   }
+  // time complexity can be decreased by memoization
  ```
  
- - for returning string, which pallindrome 
+ - for returning string, which pallindrome, we have
  ```cpp
  
  ```
