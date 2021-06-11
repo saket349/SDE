@@ -3,28 +3,30 @@
 ##### second is DP:
 - if you want to get just length, then it is easy
  ```cpp
- int  l = INT_MIN;
+ int  l = INT_MIN; vector<vector<int>> v(n+1,vector<int> (m,-1));
   int solve(string s, int n,int m){   // n starts with 0, and m with size - 1
       if(n>m) return 0;
+      if(t[n][m] != -1)
+      return t[n][m];
       if(n==m){
           l = max(l,1);
-          return  1;
+          return t[n][m] = 1;
       }
       if(n==(m-1)){
           l = max(l,2);
-          return 1;
+          return t[n][m] = 1;
       }
       if(s[n]==s[m]){
-          if(solve(s,n+1,m-1))
+        t[n][m] = solve(s,n+1,m-1)'
+          if(t[n][m])
               l = max(l,m-n+1);
-          return 1;
+          return t[n][m];
       }else{
           solve(s,n+1,m);
           solve(s,n,m-1);
-          return 0;
+          return t[n][m] = 0;
       }
   }
-  // time complexity can be decreased by memoization
  ```
  
  - for returning string, which pallindrome, we have
