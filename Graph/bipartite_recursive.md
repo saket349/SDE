@@ -5,7 +5,7 @@
 
 ##### so if any child of node is already visited then there is cycle then we compare the visited child node height with parent node height is diff is even then cycle is odd membered and we return false.
 
-```
+```cpp
 class Solution {
 public:
     vector<bool> vis;
