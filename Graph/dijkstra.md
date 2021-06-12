@@ -36,9 +36,9 @@ void dijsktra(vector<pi> v[],int n){     // dijkstra function
         for(auto i:v[x]){
             int w = i.s;
             int y = i.f;
-            if(dis[x]+w<dis[y]){
+            if(dis[x]+w<dis[y]){                       // check if the next vertex distance could be minimized
                 dis[y]=dis[x]+w;
-                q.push(mp(dis[y],y));
+                q.push(mp(dis[y],y));                  // insert the next vertex with the updated distance
             }
         }
     }
@@ -52,7 +52,7 @@ int main()
     cin>>n>>m;
     int x,y;
     vector<pi> v[n+1];
-    for(int i=0;i<m;i++){
+    for(int i=0;i<m;i++){                                 //  graph preparation
         cin>>x>>y>>w;
         v[x].push_back(mp(y,w));
         v[y].push_back(mp(x,w));
