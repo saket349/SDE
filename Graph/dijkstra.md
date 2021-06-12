@@ -1,5 +1,5 @@
 #### Dijkstra algorithm is used to find minimum distance from any node to all other nodes, it works in O(n^2) time complexity but can be reduced to O(n + mlog(n)) using priority queue or multiset
-#### PS: this algo fails with negative distances
+#### PS: this algo fails with negative distances, for negative weights, algorithm get Runtime time error as it get trapped into infinite loop
 #### requirements: 
 - vector pair, for graph, stores adjascent node and its edge length
 - distance array, which will contain minimum distance length, at the end of program, initialized with some big random value
