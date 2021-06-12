@@ -30,7 +30,7 @@ void dijsktra(vector<pi> v[],int n){     // dijkstra function
     while(!q.empty()){
         pi p = q.top();                             // pop the node with minimum distance
         q.pop();
-        int x = p.f;
+        int x = p.s;
         if(vis[x]) continue;                        // check if poped node is visited or not 
         vis[x]=true;
         for(auto i:v[x]){
