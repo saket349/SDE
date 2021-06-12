@@ -34,3 +34,4 @@ string longestPalindrome(string s) {
         return a;
     }
 ```
+#### this can be furthur more optimised usnig manacher's algorithm which has a time complexity of O(n)
