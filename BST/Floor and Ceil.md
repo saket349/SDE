@@ -1,4 +1,4 @@
-#### concept is same as of finding predessor of the given key, only difference is here floor can be key itself, but in predessor key can not be its own predessor
+#### Concept is same as of finding predessor of the given key, only difference is here floor can be key itself, but in predessor key can not be its own predessor
 ### Algorithm ---
 ```
 1 Start at the root Node.
