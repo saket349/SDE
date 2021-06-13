@@ -53,3 +53,5 @@ int main()
     return 0;
 }
 ```
+Time Complexity:
+The time complexity of the Prim’s Algorithm is O((V+E)logV)  because each vertex is inserted in the priority queue only once and insertion in priority queue take logarithmic time.
