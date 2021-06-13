@@ -1,4 +1,4 @@
-#### kosaraju algorithm
+#### Kosaraju algorithm
 - first we traverse the graph using gfs, and while returning from any node, we insert them into stack, so we have elements inserted in reverse order of tracersal
 - then what we do is take transpose of the graph (as graph is directed)
 - then in that new graph, we have our forest and no different trees in there gives final answer 
