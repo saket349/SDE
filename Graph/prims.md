@@ -1,4 +1,6 @@
-
+- In Prim’s Algorithm, we will start with an arbitrary node (it doesn’t matter which one) and mark it
+-  In each iteration we will mark a new vertex that is adjacent to the one that we have already marked
+-   As a greedy algorithm, Prim’s algorithm will select the cheapest edge and mark the vertex
 ```cpp
 #include<bits/stdc++.h>
 
