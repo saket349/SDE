@@ -7,7 +7,7 @@
 - isBST: is that node continues to be BST or not
 
 #### structure- 
-```
+```cpp
 struct info{
     int size;
     int min;
@@ -17,7 +17,7 @@ struct info{
 };
 ```
 #### next we need recursive function to solve 
-```
+```cpp
 info solve(Node* root){
     if(root==NULL) return {0, INT_MAX, INT_MIN, 0, true};       // first base case if root node is NULL, it is still a BST of size zero
     if(root->left==NULL && root->right==NULL) return {1, root->data, root->data, 1, true};   // if root is leaf node, BST of size one, min = max = node->data
