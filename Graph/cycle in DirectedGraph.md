@@ -8,7 +8,7 @@ bool solve(vector<int> adj[], bool vis[], bool incycle[], int x, int p){
             if(!vis[i]){
                 if(solve(adj,vis,incycle,i,x)) return true;
             }else {
-                if(incycle[i]) return true;
+                if(incycle[i]) return true;   // extra condition
             }
         }
         incycle[x]=false;
