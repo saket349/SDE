@@ -14,7 +14,7 @@ void dfs(vector<int> adj[], stack<int> &s,bool vis[], int x){
 	    }
 	    s.push(x);
 	}
-	vector<int> reverse(stack<int> &s, vector<int> &v){
+	vector<int> reverse(stack<int> &s, vector<int> &v){  // we return the reverse of stack as our answer
 	    while(!s.empty()){
 	        int t = s.top();
 	        s.pop();
