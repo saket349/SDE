@@ -1,6 +1,6 @@
--
+- same as finding graph in undirected graph, only change is that not all circle is cycle
 
-```
+```cpp
 bool solve(vector<int> adj[], bool vis[], bool incycle[], int x, int p){
         vis[x] = true;
         incycle[x] = true;
