@@ -86,7 +86,7 @@ int main()
 ```
 
 ### Using LinkedList
-```
+```cpp
 // C++ program for linked list implementation of stack
 #include <bits/stdc++.h>
 using namespace std;
