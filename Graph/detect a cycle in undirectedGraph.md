@@ -1,4 +1,4 @@
-- if for any node, if node in its adjoint set is already visisted and it is not the parent node then there is a cycle
+- If for any node, if node in its adjoint set is already visisted and it is not the parent node then there is a cycle
 ```
 bool solve(vector<int> adj[], bool vis[], int x, int p){
         vis[x] = true;
