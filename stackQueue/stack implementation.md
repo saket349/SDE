@@ -1,5 +1,5 @@
 ### Using Array
-```
+```cpp
 /* C++ program to implement basic stack
 operations */
 #include <bits/stdc++.h>
