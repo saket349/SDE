@@ -4,7 +4,7 @@
 - Where our DFS will to get topo is when we move from one parent node to its leaf node printing all the node sequencially, but that leaf node is also a leaf of some other parent node, but we already had printed it,
 - so to get rid of this, we use stack to store the node, we store the node once all its child node are already visited, in this way we will have all node in sequencial  mnner in stack, then we just pop and print from stack
 
-```
+```cpp
 void dfs(vector<int> adj[], stack<int> &s,bool vis[], int x){
 	    vis[x]=true;
 	    for(auto i:adj[x]){
