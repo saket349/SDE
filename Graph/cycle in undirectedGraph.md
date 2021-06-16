@@ -1,5 +1,5 @@
 - If for any node, if node in its adjoint set is already visisted and it is not the parent node then there is a cycle
-```
+```cpp
 bool solve(vector<int> adj[], bool vis[], int x, int p){
         vis[x] = true;
         for(auto i : adj[x]){
