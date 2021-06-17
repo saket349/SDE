@@ -1,4 +1,4 @@
-#### storing individual words of string
+#### Storing individual words of string
 ```cpp
 string reverseWords(string s) {
         string a = "";int flag = 0;int l = -1;
