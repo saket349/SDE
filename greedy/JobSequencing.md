@@ -42,4 +42,4 @@ struct Job
     } 
 ```
 
-#### Time complexity O(n^2) , extra space O(n)
+#### Time Complexity O(n^2) , Extra Space O(n)
