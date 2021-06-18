@@ -2,7 +2,7 @@
 
 ### The solution set must not contain duplicate subsets. Return the solution in any order.
 
-```
+```cpp
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
