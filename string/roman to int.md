@@ -1,4 +1,4 @@
-- We map the roman number to their interger value some of them are of lenght 2, while other of 1
+- We map the roman number to their interger value some of them are of lenght 2, while other of 1 
 - So we start with taking subset of length of 2, if that subset is not in our map, then we know it must be length one roman value
 ~~~cpp
 int romanToInt(string s) {
