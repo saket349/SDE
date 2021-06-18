@@ -1,4 +1,4 @@
-#### In this we version we can only swap adjascent string characters
+#### In this we version we can only swap adjascent string characters;
 ##### any opening bracket should have its closing bracket and it should come before it so to make it perfect parenthesis sequence
 ##### we keep count and increase it if we encounter \[ and decrease for ] thus if out count become negative we know we had ] without precedding \[, thus to make it right we need to use closest \[ and numbe of swaps will become index of closest \[ - current index  
 ```cpp
