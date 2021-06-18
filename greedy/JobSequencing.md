@@ -1,6 +1,6 @@
 ##### First we sort the array accd to profit, for anytask mostpreferable to do it is last available day, i.e. if deadline for one task is 6 then most preferable is to do it on 6, if avialble and if not then on 5, if not then 4...1 which ever day is availbale   
 
-```
+```cpp
 /*
 struct Job 
 { 
