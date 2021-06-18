@@ -1,4 +1,4 @@
-- It is similar to roman to integer, we map roman and integer
+- It is similar to "roman to integer conversion", we map roman and integer values
 ```cpp
 string intToRoman(int num) {
         string roman[13] = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
