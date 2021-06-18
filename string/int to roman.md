@@ -1,4 +1,4 @@
--  it similar to 
+- It similar to  
 ```cpp
 string intToRoman(int num) {
         string roman[13] = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
