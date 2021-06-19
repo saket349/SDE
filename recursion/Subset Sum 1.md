@@ -46,7 +46,7 @@ vector<int> subsetSums(vector<int> arr, int n)
 void solve(vector<int> &v, vector<int> &s, int ind, vector<vector<int>> &x){
         x.push_back(s);   // we insert the subset s into our output vector x
         int n = v.size();
-        for(int i=ind;i<n-1;i++)
+        for(int i=ind;i<n;i++)
         {
             s.push_back(v[i]);      // include the A[i] in subset
             solve(v,s,ind+1,x);     // move onto the next element
