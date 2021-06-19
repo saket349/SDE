@@ -40,3 +40,8 @@ vector<int> subsetSums(vector<int> arr, int n)
         return x;
     }
 ```
+
+### if we have to store all subset and return that, for iterative approach it is just power set, but for recursion we have to use backtracking method
+```cpp
+
+```
