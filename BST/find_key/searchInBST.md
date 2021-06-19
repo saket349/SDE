@@ -1,6 +1,6 @@
 ### We do recursive search and see if any node value matches with given value or not, if for certain recursion neither of node, node->left, node->right matches with given value then we return null
 
-```
+```cpp
 TreeNode* solve(TreeNode* node, int x){
     if(node->val == x)
         return node;
