@@ -21,7 +21,7 @@ void solve(vector<int> v,int l,int r, int sum, vector<int> &x){
 }
 ```
 
-#### Iterative method, uses powerset for calculation
+#### Iterative method, uses powerset for calculation 
 ```cpp
 vector<int> subsetSums(vector<int> arr, int n)
     {
