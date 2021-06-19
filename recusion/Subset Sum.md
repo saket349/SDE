@@ -17,7 +17,6 @@ void solve(vector<int> v,int l,int r, int sum, vector<int> &x){
         solve(arr,0,n-1,0,x);
         sort(x.begin(),x.end());
         return x;
-        // Write Your Code here
     }
 }
 ```
@@ -39,6 +38,5 @@ vector<int> subsetSums(vector<int> arr, int n)
         }
         sort(x.begin(),x.end());
         return x;
-        // Write Your Code here
     }
 ```
