@@ -4,7 +4,7 @@
 - thus if any index is set, that index value is picked, else continue
 - thus we get all possible subsets
 
-```cpp
+```cpp 
 vector<vector<int>> subsets(vector<int>& nums) {
         int size = nums.size();
         int subsetnum = (1<<size);
