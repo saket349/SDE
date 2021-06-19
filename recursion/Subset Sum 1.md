@@ -49,7 +49,7 @@ void solve(vector<int> &v, vector<int> &s, int ind, vector<vector<int>> &x){
         for(int i=ind;i<n;i++)
         {
             s.push_back(v[i]);      // include the A[i] in subset
-            solve(v,s,ind+1,x);     // move onto the next element
+            solve(v,s,i+1,x);     // move onto the next element
             s.pop_back();           // exclude the A[i] from subset and triggers backtracking
         
         }
