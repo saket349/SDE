@@ -1,5 +1,5 @@
 #### Recursive solution
-- either we include the number or we dont
+- Either we include the number or we dont
 ```cpp
 void solve(vector<int> v,int l,int r, int sum, vector<int> &x){
         if(l>r)
