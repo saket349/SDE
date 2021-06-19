@@ -1,4 +1,4 @@
-#### Recursive solution
+#### Recursive solution 
 - Either we include the element or we don't
 ```cpp
 void solve(vector<int> v,int l,int r, int sum, vector<int> &x){
