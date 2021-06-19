@@ -1,4 +1,4 @@
-#### ercursive solution
+#### Recursive solution
 - either we include the number or we dont
 ```cpp
 void solve(vector<int> v,int l,int r, int sum, vector<int> &x){
@@ -22,7 +22,7 @@ void solve(vector<int> v,int l,int r, int sum, vector<int> &x){
 }
 ```
 
-#### iterative method, uses powerset for calculation
+#### Iterative method, uses powerset for calculation
 ```cpp
 vector<int> subsetSums(vector<int> arr, int n)
     {
