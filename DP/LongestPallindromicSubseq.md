@@ -1,6 +1,6 @@
 ## Again the parent question is LCS
-### we consider same string as two different string, one is the original one, and the other is inverted one, so we take two pointers i,j  for index 
-### note (i-1) {index of first partition, string} can not be greater then (n-j) {index of second partition}
+- we consider same string as two different string, one is the original one, and the other is inverted one, so we take two pointers i,j  for index 
+- note (i-1) {index of first partition, string} can not be greater then (n-j) {index of second partition}
 
 ```cpp
 class Solution {
