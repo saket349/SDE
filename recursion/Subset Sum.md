@@ -50,7 +50,8 @@ void solve(vector<int> &v, vector<int> &s, int ind, vector<vector<int>> &x){
         {
             s.push_back(v[i]);      // include the A[i] in subset
             solve(v,s,ind+1,x);     // move onto the next element
-            s.pop_back();           
+            s.pop_back();           // exclude the A[i] from subset and triggers backtracking
+        
         }
     }
     vector<int> subsetSums(vector<int> arr, int n)
