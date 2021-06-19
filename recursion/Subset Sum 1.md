@@ -58,7 +58,7 @@ void solve(vector<int> &v, vector<int> &s, int ind, vector<vector<int>> &x){
     {
         vector<vector<int>> x;    // out put vector
         vector<int> s;            // subset vector
-        solve(arr,s,n-1,0,x);     // function call
+        solve(arr,s,0,x);     // function call
         return x;
     }
 }
