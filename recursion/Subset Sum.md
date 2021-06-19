@@ -43,5 +43,22 @@ vector<int> subsetSums(vector<int> arr, int n)
 
 #### if we have to store all subset and return that, for iterative approach it is just the same question as power set, but for recursion we have to use backtracking method
 ```cpp
-
+void solve(vector<int> &v, vector<int> &s, int ind, vector<vector<int>> &x){
+        x.push_back(s);   // we insert the subset s into our output vector x
+        int n = v.size();
+        for(int i=ind;i<n-1;i++)
+        {
+            s.push_back(v[i]);      // include the A[i] in subset
+            solve(v,s,ind+1,x);     // call for next index
+            s.pop_back();
+        }
+    }
+    vector<int> subsetSums(vector<int> arr, int n)
+    {
+        vector<vector<int>> x;    // out put vector
+        vector<int> s;            // subset vector
+        solve(arr,s,n-1,0,x);     // function call
+        return x;
+    }
+}
 ```
