@@ -21,3 +21,24 @@ void solve(vector<int> v,int l,int r, int sum, vector<int> &x){
     }
 }
 ```
+
+#### iterative method, uses powerset for calculation
+```cpp
+vector<int> subsetSums(vector<int> arr, int n)
+    {
+        vector<int> x;
+        long long s = 0;
+        long long l = (1<<n);
+        for(int i=0;i<l;i++){
+            s = 0;
+            for(int k = 0;k<n;k++){
+                if(i&(1<<k))
+                s=s+arr[k];
+            }
+            x.push_back(s);
+        }
+        sort(x.begin(),x.end());
+        return x;
+        // Write Your Code here
+    }
+```
