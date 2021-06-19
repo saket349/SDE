@@ -5,12 +5,10 @@
 - thus we get all possible subsets
 
 ```cpp
-class Solution {
-public:
-    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+vector<vector<int>> subsets(vector<int>& nums) {
         int size = nums.size();
         int subsetnum = (1<<size);
-        set<vector<int>> st;
+        vector<vector<int>> x;
         for(int s = 0;s<subsetnum;s++){
             vector<int> v;
             for(int i=0;i<size;i++){
@@ -18,16 +16,10 @@ public:
                     v.push_back(nums[i]);
                 }
             }
-            sort(v.begin(),v.end());
-            st.insert(v);
-        }
-        vector<vector<int>> x;
-        for(auto i:st){
-            x.push_back(i);
+            x.push_back(v);
         }
         return x;
     }
-};
 
 ```
 
