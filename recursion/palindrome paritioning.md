@@ -40,8 +40,9 @@
 #### optimised solution => DP plus Backtracking
 - we further optimize the approach by using dynamic programming to determine if a string is a palindrome in constant time
 - we do this using dp matrix: dp[x][y] : string starting at x and ends at y; if pallindrome then dp[x][y] true
-- condition => 
- - 
+- conditions => 
+- -  The characters at start and end indexes are equal.
+- -  The substring starting at index start+1 and ending at index end−1 is a palindrome.
 
 ```cpp
  void solve(string s, int start, vector<vector<string>> &res, vector<string> &temp, int n, vector<vector<bool>> &dp){
