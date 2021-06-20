@@ -39,7 +39,7 @@
 
 #### optimised solution => DP plus Backtracking
 - we further optimize the approach by using dynamic programming to determine if a string is a palindrome in constant time
-- we do this using dp matrix: dp[x][y] : 
+- we do this using dp matrix: dp[x][y] : string starting at x and ends at y; if pallindrome then dp[x][y] true
 
 ```cpp
 ```
