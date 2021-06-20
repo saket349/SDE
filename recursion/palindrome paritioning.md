@@ -40,6 +40,31 @@
 #### optimised solution => DP plus Backtracking
 - we further optimize the approach by using dynamic programming to determine if a string is a palindrome in constant time
 - we do this using dp matrix: dp[x][y] : string starting at x and ends at y; if pallindrome then dp[x][y] true
+- condition => 
+- - 
 
 ```cpp
+ void solve(string s, int start, vector<vector<string>> &res, vector<string> &temp, int n, vector<vector<bool>> &dp){
+        if(start>=n){
+                res.push_back(temp);
+            return;
+        }
+        for(int end = start;end<n;end++){
+            if(s[start]==s[end] && (end - start <= 2 || dp[start+1][end-1])){
+                dp[start][end] = true;
+                temp.push_back(s.substr(start, end-start+1));
+                solve(s, end+1, res, temp, n, dp);
+                temp.pop_back();
+                
+            }
+        }
+    }
+    vector<vector<string>> partition(string s) {
+        vector<vector<string>> res;
+        int n = s.size();
+        vector<string> temp;
+        vector<vector<bool>> dp(n, vector<bool> (n,false));
+        solve(s,0, res, temp,n,dp);
+        return res;
+    }
 ```
