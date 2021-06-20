@@ -38,8 +38,8 @@
 - in the above problem there is overlaping, insteading of storing the result we check for substring again and again
 
 #### optimised solution => DP plus Backtracking
-- The characters at \text{start}start and \text{end}end indexes are equal
-- 
+- we further optimize the approach by using dynamic programming to determine if a string is a palindrome in constant time
+- we do this using dp matrix: dp[x][y] : 
 
 ```cpp
 ```
