@@ -14,9 +14,9 @@ void solve(string &s, int ind, vector<string> &res, int n){
 	            return;
 	        }
 	        for(int i=ind;i<n;i++){
-	            swap(s[ind],s[i]);
-	            solve(s,ind+1,res,n);
-	            swap(s[ind],s[i]);
+	            swap(s[ind],s[i]);         // do 
+	            solve(s,ind+1,res,n);      // recur 
+	            swap(s[ind],s[i]);         // undo
 	        }
 	        
 	        return;
