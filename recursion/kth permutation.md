@@ -1,5 +1,5 @@
 - first approach is brute force recursive solution where wes stores all permutations and sort them and then find the kth permutation
-- time complexity will be O( n!\*n + n!log(n!) ), space complexity: O(n)
+- time complexity will be O( n!\*n + n!log(n!) ), space complexity: O(n!) 
 
 #### Optimised solution would be mathematical solution to find kth permutation, one we used to do in jee
 - If example we have n = 4: (1 2 3 4); so total number of permutation is 4\*3\*2\*1 = n! = 24 = fact
