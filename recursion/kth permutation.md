@@ -1,7 +1,7 @@
 - first approach is brute force recursive solution where wes stores all permutations and sort them and then find the kth permutation
 - time complexity will be O( n!\*n + n!log(n!) ), space complexity: O(n)
 
-##### Optimised solution would be mathematical solution to find kth permutation, one we used to do in jee
+#### Optimised solution would be mathematical solution to find kth permutation, one we used to do in jee
 - If example we have n = 4: (1 2 3 4); so total number of permutation is 4\*3\*2\*1 = n! = 24 = fact
 - so let k = 17, i.e. we wants 17th permutation; 
 - so how we start: we fix 1 => so total permutaion  with 1 as first index is 3! = 6 = fact< k so we decrease k as k =k-fact = 17 - 6 = 11, we move to 2 and do same; k=k-fact = 11 - 6 = 5 then 3, but here fact = 6 > k;
