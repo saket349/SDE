@@ -7,6 +7,7 @@
 - so how we start: we fix 1 => so total permutaion  with 1 as first index is 3! = 6 = fact< k so we decrease k as k =k-fact = 17 - 6 = 11, we move to 2 and do same; k=k-fact = 11 - 6 = 5 then 3, but here fact = 6 > k;
 - so we get that "3" is our first index
 - so we fix, mark 3 as visited, fact = fact/(m-1) and recur to smaller string and do same
+- time complpexity: O(n\*n) and space comeplexity: O(n) 
 
 ```cpp
 void solve(int n, int k, string &s, long long &fact, int m, bool vis[]){
@@ -35,3 +36,4 @@ void solve(int n, int k, string &s, long long &fact, int m, bool vis[]){
         return res;
     }
 ```
+
