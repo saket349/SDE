@@ -1,3 +1,4 @@
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/2009/06/tree12.gif" />
 ```
 Depth First Traversals: 
 (a) Inorder (Left, Root, Right) : 4 2 5 1 3 
