@@ -6,7 +6,7 @@
 - - recursively use the left and right portions of inorder to construct the left and right subtrees.
 - Simply call the recursion function with the entire range of inorder.
 
-```cpp
+```cpp 
 TreeNode* solve(vector<int> &preorder, int left, int right, unordered_map<int, int> &mp, int &ind){
         if(left>right) return NULL;
         int value = preorder[ind++];
