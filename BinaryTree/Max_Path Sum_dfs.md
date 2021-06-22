@@ -5,7 +5,7 @@
 -   or root node plus right node 
 -   or root node plus left plus right,
 ##### So we calculate max path lenght for each subtree in this way and compare with global ans at each step.
-```
+```cpp
 int ans = INT_MIN;  //global ans, defined globally
 int solve(TreeNode* node){
     if(node!=NULL){
