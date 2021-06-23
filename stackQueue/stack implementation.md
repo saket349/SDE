@@ -52,81 +52,50 @@ int main(){
 
 ### Using LinkedList
 ```cpp
-// C++ program for linked list implementation of stack
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> 
 using namespace std;
-
-// A structure to represent a stack
-class StackNode {
-public:
-	int data;
-	StackNode* next;
+#define MAX 1000
+class Stack{
+    public:
+        int data;
+        Stack* next;
 };
 
-StackNode* newNode(int data)
-{
-	StackNode* stackNode = new StackNode();
-	stackNode->data = data;
-	stackNode->next = NULL;
-	return stackNode;
+Stack* newNode(int data){
+    Stack* node = new Stack();
+    node->data = data;
+    node->next = NULL;
+    return node;
 }
-
-int isEmpty(StackNode* root)
-{
-	return !root;
+void push(Stack* root, int data){
+    Stack* temp = newNode(data);
+    temp->next = root;
+    root = temp;
+    cout<<root->data<<endl;
 }
-
-void push(StackNode** root, int data)
-{
-	StackNode* stackNode = newNode(data);
-	stackNode->next = *root;
-	*root = stackNode;
-	cout << data << " pushed to stack\n";
+void pop(Stack* root){
+    if(!root){
+        cout<<"Stack Underflow"<<endl;
+        return;
+    }
+    root = root->next;
 }
-
-int pop(StackNode** root)
-{
-	if (isEmpty(*root))
-		return INT_MIN;
-	StackNode* temp = *root;
-	*root = (*root)->next;
-	int popped = temp->data;
-	free(temp);
-
-	return popped;
+void peak(Stack* root){
+    if(!root){
+        cout<<"Stack Underflow"<<endl;
+        return;
+    }
+    cout<<root->data<<endl;
 }
-
-int peek(StackNode* root)
-{
-	if (isEmpty(root))
-		return INT_MIN;
-	return root->data;
+void isEmpty(Stack* root){
+    if(!root){
+        cout<<"Stack empty"<<endl;
+        return;
+    }
+    cout<<"Stack not empty"<<endl;
 }
-
-// Driver code
-int main()
-{
-	StackNode* root = NULL;
-
-	push(&root, 10);
-	push(&root, 20);
-	push(&root, 30);
-
-	cout << pop(&root) << " popped from stack\n";
-
-	cout << "Top element is " << peek(root) << endl;
-	
-	cout<<"Elements present in stack : ";
-	//print all elements in stack :
-	while(!isEmpty(root))
-	{
-		// print top element in stack
-		cout<<peek(root)<<" ";
-		// remove top element in stack
-		pop(&root);
-	}
-
-	return 0;
+int main(){
+    Stack* root = newNode(5);
+    push(root, 6);
 }
-
 ```
