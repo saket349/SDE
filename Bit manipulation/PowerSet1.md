@@ -3,7 +3,7 @@
 - so those are just filling options for each blank _ _ _ _ .... _ (total size of array) either 0 or 1
 - thus if any index is set, that index value is picked, else continue
 - thus we get all possible subsets
-
+ 
 ```cpp 
 vector<vector<int>> subsets(vector<int>& nums) {
         int size = nums.size();
