@@ -28,3 +28,22 @@ public:
     }
 };
 ```
+```cpp
+vector<vector<int>> dp;
+    int solve(string &s, int n, int m){
+        // base case
+        if(n>m) return 0;
+        if(n==m) return 1;
+        if(dp[n][m]!=-1) return dp[n][m];
+        
+        // condition to recur
+        if(s[n]==s[m])  dp[n][m] = (2 + solve(s, n+1, m-1));
+        else  dp[n][m] = max(solve(s,n+1,m), solve(s,n,m-1));
+        return dp[n][m];
+    }
+    int minInsertions(string s) {
+        int n = s.length();
+        dp = vector<vector<int>> (n, vector<int>(n, - 1));
+        return abs(n - solve(s,0,n-1));
+    }
+```
