@@ -1,4 +1,4 @@
-- only change in push
+- only change in push, instead of using two queue we use one, so we need to reverse the entries everytime push is called
 
 ```cpp
 void Stack::push(int val)
