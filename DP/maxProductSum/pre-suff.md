@@ -2,7 +2,7 @@
 ### cummulative product become 0 if num at that position is 0, so we start with 1 again for taking cummulative of nums of later indices
 
 ```cpp 
-class Solution {
+class Solution { 
 public:
     int maxProduct(vector<int>& nums) {
         long long pre[nums.size()];
