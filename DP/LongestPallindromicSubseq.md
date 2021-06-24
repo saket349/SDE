@@ -14,7 +14,6 @@ int longestPalindromeSubseq(string s) {
 
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
-
             if((i-1)>(n-j)) t[i][j] = max({t[i-1][j], t[i][j-1],t[i-1][j-1]});  // overflow
             else if((i-1)==(n-j)) t[i][j] = 1 + t[i-1][j-1];                    // when we land to same index from both start and end
             else if(s[i-1] == s[(n-j)]) t[i][j] = 2 + t[i-1][j-1];              // match condition
