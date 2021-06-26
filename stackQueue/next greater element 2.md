@@ -1,4 +1,4 @@
-- almost same as part 1
+- Almost same as part 1
 - only difference if we initialy intake all elements of array in right to left, so first element is last element pushed
 
 ```cpp
