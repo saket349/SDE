@@ -1,7 +1,7 @@
-- we make use of stack for solving this problem
-- basic idea is to store decreasing elements from last,
+- We make use of stack for solving this problem
+- Basic idea is to store decreasing elements from last,
 - and when ever we encounter any number which is more then last inserted values in stack then we delete those and insert our current number into stack
-- for any number its next greater element is top element in the stack
+- For any number its next greater element is top element in the stack
 ```cpp
 vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
 	stack<int> s;
