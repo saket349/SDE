@@ -1,5 +1,5 @@
-- stack is based on LIFO(last in first out) 
-- we push entry barckets in stack
+- Stack is based on LIFO(last in first out) 
+- We push entry barckets in stack
 - and when ever we encounter any closing bracket, we take top element from stack, which will we most currently encountered entry bracket
 - we know that last encounter entry bracket must have first encounter closing bracket of same type, for e.g. [ ( ] ) is not balanced, as last for "(" we must have ")" as closing  bracket, but we have "]"
 ```cpp
