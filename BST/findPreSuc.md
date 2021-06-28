@@ -1,4 +1,4 @@
-### to find inorder predessor and successor
+### To find inorder predessor and successor
 ### Algorithm ---
 ```
 Input: root node, key
@@ -22,7 +22,7 @@ output: predecessor node, successor node
         search recursively into right subtree
 ```
 ### Code ---
-```
+```cpp
 void findPreSuc(Node* root, Node*& pre, Node*& suc, int key)
 {
     if(root==NULL) return;
