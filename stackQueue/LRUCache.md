@@ -1,6 +1,10 @@
+- we solve the problem using hash-table and doubly linked list
+- linkedlist is used to maintain the order of our cache
+- and hashtable is used to map key to node
 ```cpp
 class LRUCache {
 public:
+// structure of our doubly linked list
     class Node{
         public:
         int key, val;
@@ -11,15 +15,17 @@ public:
         }
     };
     
+    // head nd tail initialised to null value
     Node* head = new Node(-1,-1);
     Node* tail = new Node(-1,-1);
-    int cap;
+    int cap;  // capacity of our cache
     unordered_map<int, Node*> mp;
-    LRUCache(int capacity) {
+    LRUCache(int capacity) {        // constructor of our cache
         cap = capacity;
         head->next = tail;
         tail->prev = head;
-    }
+    } 
+    
     void delNode(Node* delnode){
         Node* delnodeNext = delnode->next;
         Node* delnodePrev = delnode->prev;
