@@ -1,4 +1,4 @@
-- [Qusetion link](https://practice.geeksforgeeks.org/problems/range-minimum-query/1#)
+- [Qusetion link GEEKS FOR GEEKS](https://practice.geeksforgeeks.org/problems/range-minimum-query/1#)
 - for single query question, linear serach ca be done, but for large query question, time complexity will be high
 - so we use segment tree concept and do pre-calculation to store the min for range l to r
 
