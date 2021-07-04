@@ -1,18 +1,5 @@
-// A C++ program for merging overlapping intervals 
-#define ll long long 
-#define ull unsigned long long
-#define ld long double
-
-#define pb push_back
-#define si(x)	scanf("%d",&x)
-#define fo(i,n) for(int i=0;i<n;i++)
-#define foc(i,k,n) for(int i=k;k<n?i<n:i>n;k<n?i+=1:i-=1)
-//==================================================================================
-const int mod = 1000000007;
-//==================================================================================
-//template<typename T>
-
-// An interval has start time and end time 
+- time complexity: O(nlogn + n)
+```cpp
 struct Interval 
 { 
 	int start, end; 
@@ -74,12 +61,4 @@ void mergeIntervals(Interval arr[], int n)
 	} 
 	return; 
 } 
-
-// Driver program 
-int main() 
-{ 
-	Interval arr[] = { {6,8}, {1,9}, {2,4}, {4,7} }; 
-	int n = sizeof(arr)/sizeof(arr[0]); 
-	mergeIntervals(arr, n); 
-	return 0; 
-} 
+```
