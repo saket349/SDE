@@ -8,11 +8,18 @@
 // Segment Tree for array[ss..se].
 // si is index of current node in segment tree st
 int constructSTUtil(int arr[], int ss, int se, int *st, int si){
+
+    // If there is one element in array,
+    // store it in current node of
+    // segment tree and return
     if(ss==se){
         st[si] = arr[ss];
         return st[si];
     }
     
+    // If there are more than one elements,
+    // then recur for left and right subtrees
+    // and store the minimum of two values in this node
     int mid = (ss+se)/2;
     st[si] = min(constructSTUtil(arr, ss, mid, st, 2*si+1),
                  constructSTUtil(arr, mid+1, se, st, 2*si+2));
@@ -20,8 +27,10 @@ int constructSTUtil(int arr[], int ss, int se, int *st, int si){
     
 }
 
-/* The functions which 
-builds the segment tree */
+/* Function to construct segment tree
+from given array. This function allocates
+memory for segment tree and calls constructSTUtil() to
+fill the allocated memory */
 int *constructST(int arr[],int n)
 {
     int x = (int)(ceil(log2(n)));
