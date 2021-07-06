@@ -22,6 +22,7 @@ bool isPalindrome(string s, int i, int j){
 ```
 
 - Second approach is using memoized DP or bottom up DP, basically this is just a derived question of matrix chain multiplication 
+- time complexity: O(N\*N^2) N^2 subarrays, and N for each time isPalindrome calculation
 
 ```cpp
 vector<vector<int>> dp;
@@ -48,4 +49,5 @@ vector<vector<int>> dp;
         return solve(s, 0, s.size()-1);
     }
 ```
-- And then we do optiimise this 
+
+- for furthur optimisation we stores the 
