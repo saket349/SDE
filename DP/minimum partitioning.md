@@ -1,4 +1,4 @@
-- first approach or say naive approach is using backtracking, Time complexity: O(N\*2^N), space complexity: O(1);
+- First approach or say naive approach is using backtracking, Time complexity: O(N\*2^N), space complexity: O(1);
 ```cpp
 bool isPalindrome(string s, int i, int j){
         if(i>=j) return true;
@@ -21,7 +21,7 @@ bool isPalindrome(string s, int i, int j){
     }
 ```
 
-- second approach is using memoized DP or bottom up DP
+- Second approach is using memoized DP or bottom up DP, basically this is just a derived question of matrix chain multiplication 
 
 ```cpp
 vector<vector<int>> dp;
@@ -48,3 +48,4 @@ vector<vector<int>> dp;
         return solve(s, 0, s.size()-1);
     }
 ```
+- And then we do optiised
