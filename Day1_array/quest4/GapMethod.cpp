@@ -1,5 +1,6 @@
 // Merging two sorted arrays with O(1)
 // extra space
+// time complexity: O((n+m)log(n+m))
 #include<bits/stdc++.h>
 using namespace std;
 
