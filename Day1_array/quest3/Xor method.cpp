@@ -1,5 +1,6 @@
 // C++ program to Find the repeating
 // and missing elements
+// time complexity: O(n)
 
 #include <bits/stdc++.h>
 using namespace std;
