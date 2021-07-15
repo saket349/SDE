@@ -1,4 +1,4 @@
-<p>Problem statemnt link : <a href="https://leetcode.com/problems/set-matrix-zeroes/" target="_blank">Go</a></p>
+- Problem statemnt link : <a href="https://leetcode.com/problems/set-matrix-zeroes/" target="_blank">Go</a>
 #### first approach is using two arrays, one column another row => If any cell of the matrix has a zero we can record its row and column number. All the cells of this recorded row and column can be marked zero in the next iteration.
 -  time  complexity: O(n^2), space complexity: O(n)
 ```py
