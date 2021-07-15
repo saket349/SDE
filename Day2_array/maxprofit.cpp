@@ -1,3 +1,7 @@
+/*
+    time complexity: O(n)
+    space complexity: O(1)
+*/ 
 //******Jai Hanuman*****************
 //******Saket Kumaer*****************
 #include<bits/stdc++.h>
