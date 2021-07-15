@@ -1,30 +1,16 @@
-//******Jai Hanuman*****************
-//******Saket Kumar*****************
-#include<bits/stdc++.h>
-using namespace std;
+#define ll long long
+#define fo(i,n)	for(int i=0;i<n;i++)
 
-#define ll long long 
-#define ull unsigned long long
-#define ld long double
-#define pb push_back
-#define si(x)	scanf("%d",&x)
-#define fo(i,n) for(int i=0;i<n;i++)
-#define foc(i,k,n) for(int i=k;k<n?i<n:i>n;k<n?i+=1:i-=1)
-//==================================================================================
-const int mod = 1000000007;
-//==================================================================================
-//template<typename T>
-
-// function to count the numbers of inverse for given array1  and array2
 ll countInv(int l[],int k[],int n,int m)
 {
     int i=n-1,j=m-1;
     ll ans=0;
-    long double z = double((l[i]*1.0)/2);
-    long double x = double(k[j]*1.0);
+    long double z;
+    long double x;
     while(i>=0 && j>=0)
-    {
-        if(z>x) //We comapre l[i]/2 > k[j] in place of l[i]>2*k[j]
+    {   z=double((l[i]*1.0)/2);
+        x=double(k[j]*1.0);
+        if(z>x)
         {
             ans = ans + j + 1;
             i--;
@@ -36,7 +22,7 @@ ll countInv(int l[],int k[],int n,int m)
 }
 
 //function to merge the input array
-ll merge(int a[],int first,int mid,int last)
+ll merge(vector<int> & a,int first,int mid,int last)
 {
     int n1 = mid-first + 1;
     int n2 = last-mid;
@@ -66,7 +52,7 @@ ll merge(int a[],int first,int mid,int last)
     
     return ans;
 }
-ll mergesort(int a[],int first,int last)
+ll mergesort(vector<int> &a,int first,int last)
 {
     ll ans = 0;
     int mid = (last+first)/2;
@@ -79,16 +65,10 @@ ll mergesort(int a[],int first,int last)
     return ans;
 }
 
-int main()
-{
-ios_base::sync_with_stdio(0); 
-cin.tie(0); cout.tie(0);
-    int n;
-    cin>>n;
-    int a[n];
-    fo(i,n)
-    cin>>a[i];
-    cout<<mergesort(a,0,n-1);
-
-return 0;
-}
+class Solution {
+public:
+    int reversePairs(vector<int>& nums) {
+        int n=nums.size();
+        return mergesort(nums,0,n-1);
+    }
+};
