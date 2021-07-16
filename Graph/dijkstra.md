@@ -50,7 +50,7 @@ int main()
 {
     int n,m;
     cin>>n>>m;
-    int x,y;
+    int x,y,w;
     vector<pi> v[n+1];
     for(int i=0;i<m;i++){                                 //  graph preparation
         cin>>x>>y>>w;
