@@ -19,8 +19,10 @@ using namespace std;
 #define f first
 #define s second
 #define fo(i,n) for(int i=0;i<n;i++)
-
-void dijsktra(vector<pi> v[],int n){     // dijkstra function
+int s;
+void dijsktra(vector<pi> v[],int n){    
+    cin>>s;
+    // dijkstra function
     vector<int> dis(n+1,1e9);            // we initialise the distance array to inifinity, here 1e9
     bool vis[n+1];
     memset(vis,false,sizeof(vis));
@@ -42,12 +44,12 @@ void dijsktra(vector<pi> v[],int n){     // dijkstra function
             }
         }
     }
+    fo(i,n) if(dis[i]==1e9) dis[i] = -1;
     fo(i,n)
-    cout<<dis[i]<<endl;
+    {if(i==s) continue; cout<<dis[i]<<" ";}
+    cout<<endl;
 }
-
-int main()
-{
+void solve(){
     int n,m;
     cin>>n>>m;
     int x,y,w;
@@ -58,7 +60,18 @@ int main()
         v[y].push_back(mp(x,w));
     }
     dijsktra(v,n);
-    
-    return 0;
+}
+
+int main()
+{
+ios_base::sync_with_stdio(0); 
+cin.tie(0); cout.tie(0);
+    int t = 1;
+    cin>>t;
+    while(t--)
+    {
+      solve();
+    }
+return 0;
 }
 ```
