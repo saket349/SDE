@@ -10,7 +10,7 @@
 - Step 4: By this we get length of the sequence, and then move to next index and search for other possible sequence
 - Step 5: Finally we return the maximum of all lenghts 
 
-```
+```cpp
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
