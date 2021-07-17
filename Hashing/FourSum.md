@@ -1,6 +1,6 @@
 ### code same as tree sum, just here we go three nested loop instead of two
 
-```
+```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
