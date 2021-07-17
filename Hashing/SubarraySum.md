@@ -1,9 +1,10 @@
+>  to find number of subrrays with given sum
 ### approach: prefix sum + hashmap
 - Using extra space of O(N) for hash table we can reduce time complexity from O(N^2) in brute force to O(N).
 - We use a hash table to store frequencies of prefix sum in hash table.
 - The number of times we have encountered (sum-k), that many more solutions we have till that index.
 
-```
+```cpp
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
