@@ -1,6 +1,6 @@
 ### Basic idea is to keep track of all elements encountered, see if our block has any repeating element or not, and if it has let say at position 'x', then we move our left pointer to x + 1 (as we have to consider continous array)
 
-```
+```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
