@@ -6,3 +6,7 @@ Depth First Traversals:
 (b) Preorder (Root, Left, Right) : 1 2 4 5 3 
 (c) Postorder (Left, Right, Root) : 4 5 2 3 1
 ```
+
+- top view
+![Screenshot (64)](https://user-images.githubusercontent.com/62437314/126073740-4534b3ad-8911-42e7-be5e-2da8d22a0e38.png)
+
