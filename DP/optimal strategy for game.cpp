@@ -1,5 +1,6 @@
 /*
-The user chooses the ‘ith’ coin with value ‘Vi’: The opponent either chooses (i+1)th coin or jth coin. The opponent intends to choose the coin which leaves the user with minimum value. 
+The user chooses the ‘ith’ coin with value ‘Vi’: The opponent either chooses (i+1)th coin or jth coin.
+The opponent intends to choose the coin which leaves the user with minimum value. 
 i.e. The user can collect the value Vi + min(F(i+2, j), F(i+1, j-1) ). 
 */
 vector<vector<int>> dp;
