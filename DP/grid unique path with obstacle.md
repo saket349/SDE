@@ -1,4 +1,4 @@
-[qn link](https://leetcode.com/problems/unique-paths-ii/discuss/1393658/RECURSIVE-CPP-CODE-oror-DP)
+[qn link](https://leetcode.com/problems/unique-paths-ii/)
 - So idea is  very simple for any cel let's say (i, j)  we have only two option either we move down (i+1, j), or right (i, j+1). 
 - So  recursion solution of this will be quite simple, move to left  if not blocked, similarly down if not blocked. 
 But time complexity will be factorial time complexity. 
