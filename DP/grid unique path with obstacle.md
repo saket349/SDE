@@ -1,5 +1,5 @@
 [qn link](https://leetcode.com/problems/unique-paths-ii/)
-- So idea is  very simple for any cel let's say (i, j)  we have only two option either we move down (i+1, j), or right (i, j+1). 
+- So idea is  very simple for any cell let's say (i, j)  we have only two option either we move down (i+1, j), or right (i, j+1). 
 - So  recursion solution of this will be quite simple, move to left  if not blocked, similarly down if not blocked. 
 But time complexity will be factorial time complexity. 
 - So we do little edit, we add dp array which keep track of cell visited, so when we revisit that cell, we need not calculate ans for it again, rather simply return dp[i][j]
