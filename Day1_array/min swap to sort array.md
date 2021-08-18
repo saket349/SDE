@@ -1,0 +1,3 @@
+- min number of swap will be = summation ( cycleSize - 1 )
+- eg: { 4 3 2 1 }
+- solution  = (2 - 1) + ( 2 - 1 ) = 2
