@@ -3,7 +3,7 @@
 
 ##### ans is sum of min(r[i],l[i])
 
-```
+```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
