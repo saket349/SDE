@@ -4,6 +4,6 @@
  
  [GEEKS FOR GEEKS SDE SHEET](https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/) 
 <hr>
-total solution count = 145
+total solution count = 146
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
