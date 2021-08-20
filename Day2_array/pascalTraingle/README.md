@@ -1,6 +1,9 @@
 <h1>Pascal Triangle </h1>
 <p><b>Pascal Triangle</b> is a triangular array of the binomial coefficients. Write a function that takes an integer value n as input and prints first n lines of the Pascal’s triangle. Following are the first 6 rows of Pascal’s Triangle.
-</p><br>
+</p>
+![PascalTriangleAnimated2](https://user-images.githubusercontent.com/62437314/130225503-cd1e1d80-2e20-4b9c-ac3e-14224f4db639.gif)
+
+<br>
 <h3>Question can be asked like print first five rows of pascal triangle or print seventh row only or print fifth row third element </h3>
 <u>
   <li>For finding the value at nth row nd mth column, formula is --------- <sup>n-1</sup>C<sub>m-1</sub>  :panda_face: {time complexity O(N)}</li>
