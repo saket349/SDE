@@ -1,5 +1,5 @@
 <h1>Pascal Triangle </h1>
-<p><b>Pascal Triangle</b> is a triangular array of the binomial coefficients. Write a function that takes an integer value n as input and prints first n lines of the Pascal’s triangle. Following are the first 6 rows of Pascal’s Triangle.
+<p><b>Pascal Triangle</b> is a triangular array of the binomial coefficients. Write a function that takes an integer value n as input and prints first n lines of the Pascal’s triangle. Following are the first 5 rows of Pascal’s Triangle.
 </p><br>
 
 ![PascalTriangleAnimated2](https://user-images.githubusercontent.com/62437314/130225503-cd1e1d80-2e20-4b9c-ac3e-14224f4db639.gif)
