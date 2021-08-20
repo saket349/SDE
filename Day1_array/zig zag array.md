@@ -1,3 +1,11 @@
+```
+Input:
+N = 7
+Arr[] = {4, 3, 7, 8, 6, 2, 1}
+Output: 3 7 4 8 2 6 1
+Explanation: 3 < 7 > 4 < 8 > 2 < 6 > 1
+```
+```cpp
 void zigZag(int a[], int n) {
 	    // code here
 	    bool m = true;
@@ -10,3 +18,4 @@ void zigZag(int a[], int n) {
 	        m ^= true;
 	    }
 	}
+```
