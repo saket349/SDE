@@ -3,6 +3,9 @@
 - then what we do is take transpose of the graph (as graph is directed)
 - then in that new graph, we have our forest and no different trees in there gives final answer 
 
+![SCC](https://user-images.githubusercontent.com/62437314/130319325-50c1a2b8-d818-482c-adf2-5445cc98ef41.png)
+
+
 ```cpp
 // step 1: grpah traversal, and stack fill order
 void dfs(int x, vector<int> adj[], bool vis[], stack<int> &s) {
