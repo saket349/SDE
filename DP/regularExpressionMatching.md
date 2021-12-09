@@ -5,7 +5,7 @@ Given an input string s and a pattern p, implement regular expression matching w
 '.' Matches any single character.​​​​
 '*' Matches zero or more of the preceding element.
 The matching should cover the entire input string (not partial)
-```
+``` 
 
 ```
 Example :
@@ -30,6 +30,8 @@ public boolean isMatch(String text, String pattern) {
         }
     }
 ```
+- TC: exponential
+- SC: O(N<sup>2</sup>)
 
 #### DP Approach:
 ```
