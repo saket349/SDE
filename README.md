@@ -8,6 +8,6 @@
 Array:
 <br>
 
-- [zig zag array](https://github.com/saket349/SDE/blob/384ca7b40d44be6277df91996ec8beaf5b823a58/Day1_array/zig%20zag%20array.md)
+- [zig zag array](Day1_array/zig zag array.md)
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
