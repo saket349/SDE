@@ -1,3 +1,4 @@
+- TC: O(N), SC: O(1)
 ```
 Input:
 N = 7
