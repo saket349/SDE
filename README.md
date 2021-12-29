@@ -9,5 +9,9 @@ Array:
 <br>
 
 - [zig zag array](https://github.com/saket349/SDE/blob/384ca7b40d44be6277df91996ec8beaf5b823a58/Day1_array/zig%20zag%20array.md)
+
+Two Pointer:
+
+- [3 SUM](https://github.com/saket349/SDE/blob/a5d74a65327bd9a3274794e81e3891d3c411c58b/TwoPointer/3sum.md)
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
