@@ -1,5 +1,5 @@
 - find all unique triplet that sum up to given value
-- 
+- TC: O(N<sup>2</sup>)  SC: O(1)
 
 ```cpp
 vector<vector<int>> threeSum(vector<int>& nums) {
