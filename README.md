@@ -25,5 +25,9 @@ Graph:
 - [TopoSort](https://github.com/saket349/SDE/blob/main/Graph/topoSortAlgo.md)
 - [clone graph](https://github.com/saket349/SDE/blob/main/Graph/clone%20graph%20%20dfs.cpp)
 
+BST:
+
+- [kth smallest element](https://github.com/saket349/SDE/blob/main/BST/Kth%20smallest%20element%20in%20BST.md)
+
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
