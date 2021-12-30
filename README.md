@@ -14,5 +14,10 @@ Array:
 Two Pointer:
 
 - [3 SUM](https://github.com/saket349/SDE/blob/a5d74a65327bd9a3274794e81e3891d3c411c58b/TwoPointer/3sum.md)
+
+Graph:
+
+- [Course Schedule](https://github.com/saket349/SDE/blob/main/Graph/Course%20Schedule%20using%20TopoSort.md)
+
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
