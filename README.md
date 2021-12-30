@@ -19,6 +19,11 @@ Binary Search:
 
 - [Start and End of target in sorted array](https://github.com/saket349/SDE/blob/main/divideNconqure/First%20and%20Last%20of%20element%20in%20Sorted%20Array.md)
 
+Heap:
+
+- [Kth largest element](https://github.com/saket349/SDE/blob/main/heap/kth%20largest%20element.md)
+- [Kth smallest element](https://github.com/saket349/SDE/blob/main/heap/kth%20smallest%20element.cpp)
+
 Graph:
 
 - [Course Schedule](https://github.com/saket349/SDE/blob/main/Graph/Course%20Schedule%20using%20TopoSort.md)
