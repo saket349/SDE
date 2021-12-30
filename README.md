@@ -15,6 +15,10 @@ Two Pointer:
 
 - [3 SUM](https://github.com/saket349/SDE/blob/a5d74a65327bd9a3274794e81e3891d3c411c58b/TwoPointer/3sum.md)
 
+Binary Search:
+
+- [Start and End of target in sorted array](https://github.com/saket349/SDE/blob/main/divideNconqure/First%20and%20Last%20of%20element%20in%20Sorted%20Array.md)
+
 Graph:
 
 - [Course Schedule](https://github.com/saket349/SDE/blob/main/Graph/Course%20Schedule%20using%20TopoSort.md)
