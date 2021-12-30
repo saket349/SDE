@@ -4,7 +4,7 @@
 - we use two visited arrays, one for the general perpose to know which all nodes are visited
 - other for that perticular traversal in graph, which help us to find cycle
 
-```
+```cpp
 bool topoSort(stack<int> &s, int x, vector<int> adj[], bool vis[], bool vis_curr[]){
     vis[x] = true;
     vis_curr[x] = true;
