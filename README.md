@@ -36,7 +36,7 @@ BST:
 
 Recursion:
 
-- [telephone combination](https://github.com/saket349/SDE/blob/main/recursion/telephone%20combination.md)
+- [Telephone combination](https://github.com/saket349/SDE/blob/main/recursion/telephone%20combination.md)
 
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
