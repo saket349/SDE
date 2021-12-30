@@ -34,5 +34,9 @@ BST:
 
 - [kth smallest element in BST](https://github.com/saket349/SDE/blob/main/BST/Kth%20smallest%20element%20in%20BST.md)
 
+Recursion:
+
+- [telephone combination](https://github.com/saket349/SDE/blob/main/recursion/telephone%20combination.md)
+
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
