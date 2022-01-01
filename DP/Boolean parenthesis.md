@@ -1,3 +1,4 @@
+- [LeetCode discussion link](https://leetcode.com/discuss/general-discussion/1279635/boolean-parenthesization-easy-c)
 - parent question is matrix chain multiplication, you are given an string eg: T^F|F, and you need to find out total number  of ways to put parenthesis such that resulting string gives true output
 - we use matrix chain mutiplication concept, and for memoization we use dp[n+1][n+1][2] array
 
