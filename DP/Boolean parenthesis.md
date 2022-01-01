@@ -2,6 +2,14 @@
 - parent question is matrix chain multiplication, you are given an string eg: T^F|F, and you need to find out total number  of ways to put parenthesis such that resulting string gives true output
 - we use matrix chain mutiplication concept, and for memoization we use dp[n+1][n+1][2] array
 
+```
+Input: symbol[]    = {T, F, T}
+       operator[]  = {^, &}
+Output: 2
+The given expression is "T ^ F & T", it evaluates true
+in two ways "((T ^ F) & T)" and "(T ^ (F & T))"
+```
+
 ```cpp
 class Solution {
   int memo[202][202][2];
