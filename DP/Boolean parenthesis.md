@@ -9,6 +9,14 @@ Output: 2
 The given expression is "T ^ F & T", it evaluates true
 in two ways "((T ^ F) & T)" and "(T ^ (F & T))"
 ```
+```
+Input: symbol[]    = {T, T, F, T}
+       operator[]  = {|, &, ^}
+Output: 4
+The given expression is "T | T & F ^ T", it evaluates true
+in 4 ways ((T|T)&(F^T)), (T|(T&(F^T))), (((T|T)&F)^T) 
+and (T|((T&F)^T)). 
+```
 
 ```cpp
 class Solution {
