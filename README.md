@@ -42,6 +42,7 @@ DP:
 
 - [Burst Ballon](https://github.com/saket349/SDE/blob/main/DP/BurstBallon%20MCM.md)
 - [Boolean Parenthesis](https://github.com/saket349/SDE/blob/main/DP/Boolean%20parenthesis.md)
+- [Longest pallindrome](https://github.com/saket349/SDE/blob/main/DP/LongestPallindromicSubseq.md)
 
 Hashing:
 
