@@ -1,3 +1,10 @@
+- [question link](https://leetcode.com/problems/super-egg-drop/)
+
+```
+Input: k = 2, n = 6
+Output: 3
+```
+```cpp
 vector<vector<int>> dp;
     int solve(int f, int e){
         if(f==0 || f==1) return f;
@@ -16,3 +23,4 @@ vector<vector<int>> dp;
         // your code here
         return solve(k, n);
     }
+```
