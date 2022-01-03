@@ -4,19 +4,19 @@
 - we use matrix chain mutiplication concept, and for memoization we use dp[n+1][n+1][2] array
 
 ```
-Input: symbol[]    = {T, F, T}
-       operator[]  = {^, &}
-Output: 2
-The given expression is "T ^ F & T", it evaluates true
-in two ways "((T ^ F) & T)" and "(T ^ (F & T))"
-```
-```
-Input: symbol[]    = {T, T, F, T}
-       operator[]  = {|, &, ^}
+Input: N = 7
+S = T|T&F^T
 Output: 4
-The given expression is "T | T & F ^ T", it evaluates true
-in 4 ways ((T|T)&(F^T)), (T|(T&(F^T))), (((T|T)&F)^T) 
-and (T|((T&F)^T)). 
+Explaination: The expression evaluates 
+to true in 4 ways ((T|T)&(F^T)), 
+(T|(T&(F^T))), (((T|T)&F)^T) and (T|((T&F)^T))
+```
+```
+Input: N = 5
+S = T^F|F
+Output: 2
+Explaination: ((T^F)|F) and (T^(F|F)) are the 
+only ways.
 ```
 
 ```cpp
