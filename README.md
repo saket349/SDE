@@ -42,5 +42,9 @@ DP:
 
 - [Burst Ballon](https://github.com/saket349/SDE/blob/main/DP/BurstBallon%20MCM.md)
 
+Hashing:
+
+- [find judge](https://github.com/saket349/SDE/blob/main/Hashing/Find%20judge.md)
+
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
