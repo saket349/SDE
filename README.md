@@ -37,6 +37,7 @@ BST:
 Recursion:
 
 - [Telephone combination](https://github.com/saket349/SDE/blob/main/recursion/telephone%20combination.md)
+- [Pallindrome Partitioning](https://github.com/saket349/SDE/blob/main/recursion/palindrome%20paritioning.md)
 
 DP:
 
