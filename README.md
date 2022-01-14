@@ -51,5 +51,9 @@ Hashing:
 
 - [find judge](https://github.com/saket349/SDE/blob/main/Hashing/Find%20judge.md)
 
+String:
+
+- [String to Integer](https://github.com/saket349/SDE/blob/main/string/string%20to%20int.md)
+
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
