@@ -13,7 +13,7 @@ Output: true
 
 - recursive solution is based on turns, for each player turn, chose either of the options
 
-```
+```cpp
 bool solve(vector<int> &nums, int i, int j, int xsum, int ysum, int turn){
         // cout<<i<<" "<<j<<" "<<xsum<<" "<<ysum<<endl;
         if(i>j) {
