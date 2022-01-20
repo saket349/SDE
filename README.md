@@ -18,6 +18,7 @@ Two Pointer:
 Binary Search:
 
 - [Start and End of target in sorted array](https://github.com/saket349/SDE/blob/main/divideNconqure/First%20and%20Last%20of%20element%20in%20Sorted%20Array.md)
+- [Minimum Rate](https://github.com/saket349/SDE/blob/main/divideNconqure/minimum%20rate.md)
 
 Heap:
 
