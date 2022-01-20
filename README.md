@@ -46,11 +46,12 @@ DP:
 - [Burst Ballon](https://github.com/saket349/SDE/blob/main/DP/BurstBallon%20MCM.md)
 - [Boolean Parenthesis](https://github.com/saket349/SDE/blob/main/DP/Boolean%20parenthesis.md)
 - [Longest pallindrome](https://github.com/saket349/SDE/blob/main/DP/LongestPallindromicSubseq.md)
-- [egg droping](https://github.com/saket349/SDE/blob/main/DP/egg%20droping.md)
+- [Egg droping](https://github.com/saket349/SDE/blob/main/DP/egg%20droping.md)
+- [Optimal game play](https://github.com/saket349/SDE/blob/main/DP/optimal%20strategy%20for%20game.md)
 
 Hashing:
 
-- [find judge](https://github.com/saket349/SDE/blob/main/Hashing/Find%20judge.md)
+- [Find judge](https://github.com/saket349/SDE/blob/main/Hashing/Find%20judge.md)
 
 String:
 
