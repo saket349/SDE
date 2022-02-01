@@ -4,7 +4,7 @@
 - we start with centre, and move in both direction to see if it is pallindrome or not
 - we look for even and odd lengt string for each possible centre
 ```cpp
-string longestPalindrome(string s) {
+string countPalindrome(string s) {
         int n = s.size();
         if(n<=1) return s;
         int start=0, len = 1;
