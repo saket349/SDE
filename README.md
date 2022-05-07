@@ -57,5 +57,8 @@ String:
 
 - [String to Integer](https://github.com/saket349/SDE/blob/main/string/string%20to%20int.md)
 
+Strack:
+
+- [132](https://github.com/saket349/SDE/blob/main/stackQueue/132pattern.md)
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
