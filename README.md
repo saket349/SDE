@@ -56,6 +56,7 @@ Hashing:
 String:
 
 - [String to Integer](https://github.com/saket349/SDE/blob/main/string/string%20to%20int.md)
+- [zigzag string](https://github.com/saket349/SDE/blob/main/string/string%20zigzag.md)
 
 Strack:
 
