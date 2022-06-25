@@ -24,6 +24,7 @@ Heap:
 
 - [Kth largest element](https://github.com/saket349/SDE/blob/main/heap/kth%20largest%20element.md)
 - [Kth smallest element](https://github.com/saket349/SDE/blob/main/heap/kth%20smallest%20element.cpp)
+- [Target Array](https://github.com/saket349/SDE/blob/main/heap/targetArray.md)
 
 Graph:
 
