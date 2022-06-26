@@ -11,7 +11,7 @@ Output: false
 Explanation: There is no 132 pattern in the sequence.
 ```
 - use stack moving from back, and a pointer (third) to store max of all previous values lesser then current value
-```
+```cpp
 bool find132pattern(vector<int>& nums) {
         stack<int> s;
         int len = nums.size();
