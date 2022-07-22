@@ -35,6 +35,7 @@ Graph:
 BST:
 
 - [kth smallest element in BST](https://github.com/saket349/SDE/blob/main/BST/Kth%20smallest%20element%20in%20BST.md)
+- [search in BST](https://github.com/saket349/SDE/blob/main/BST/find_key/searchInBST.md)
 
 Recursion:
 
