@@ -63,5 +63,6 @@ String:
 Strack:
 
 - [132](https://github.com/saket349/SDE/blob/main/stackQueue/132pattern.md)
+- [Balanced Brackets](https://github.com/saket349/SDE/blob/main/stackQueue/balanced%20parenthesis.md)
 <br>
 <p align="center"> < / Happy Coding :heart: > </p>
