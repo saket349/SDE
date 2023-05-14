@@ -20,7 +20,9 @@ Input
 Output
 [null,null,null,null,-3,null,0,-2]
 ```
-
+```
+Look for get min element in stack in O(1) file in this folder for O(1) SC solution
+```
 ```cpp
 class MinStack {
 public:
